@@ -2,17 +2,14 @@ from distutils.core import setup
 
 setup(
     name='ismdeep-utils',  # How you named your package folder (MyLib)
-    packages=['ismdeep-utils'],  # Chose the same as "name"
-    version='0.1.1',  # Start with a small number and increase it with every change you make
+    packages=['ismdeep_utils'],  # Chose the same as "name"
+    version='0.1.2',  # Start with a small number and increase it with every change you make
     license='MIT',  # Chose a license from here: https://help.github.com/articles/licensing-a-repository
     description='ismdeep-utils',  # Give a short description about your library
     author='ismdeep',  # Type in your name
     author_email='ismdeep@protonmail.com',  # Type in your E-Mail
     url='https://github.com/ismdeep/ismdeep-utils-py',  # Provide either the link to your github or to your website
     keywords=['utils', 'args'],  # Keywords that define your package best
-    py_modules=[
-        'args'
-    ],
     install_requires=[
         'pytest'
     ],
