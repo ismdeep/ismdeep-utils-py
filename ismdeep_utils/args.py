@@ -8,3 +8,10 @@ class ArgsUtil:
             if sys.argv[i] == __key__:
                 return sys.argv[i + 1]
         return ''
+
+    @staticmethod
+    def exists(__key__):
+        for v in sys.argv:
+            if v == __key__:
+                return True
+        return False
